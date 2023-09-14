@@ -1,0 +1,54 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 10px;
+}
+
+.label{
+background-color:  rgba(217, 217, 217, 1);
+margin: 10px 0px;
+font-size: 12px;
+font-weight: 700;
+line-height: 14px;
+letter-spacing: 0.155em;
+text-align: left;
+color: rgba(64, 64, 64, 1);
+}
+
+.input{
+    width: 382px;
+height: 44px;
+border-radius: 6px;
+color: rgba(64, 64, 64, 1);
+background-color: white;
+}
+
+button{
+    background: rgba(34, 9, 48, 1);
+    width: 382px;
+height: 53px;
+border-radius: 6px;
+color: white;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0.01em;
+text-align: center
+}
+
+.dateAndCvc{
+    display: flex;
+}
+
+.date{
+    width: 78px;
+height: 44px;
+border-radius: 6px;
+}
+
+.cvc{
+    width: 189px;
+height: 44px;
+border-radius: 6px;
+}
